@@ -1,3 +1,6 @@
+a=1
+b=2
+
 # 각 수의 소인수를 이용한 풀이
 def solution(a, b):
     answer = 1
