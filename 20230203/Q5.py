@@ -14,7 +14,7 @@ def solution(n, s):
             temparr.append(temp%9 + 1)  # 숫자가 너무 커서 [0]index가 최소치가 고정되거나 (2,15) [6,9]~
             temp  = temp // 9           #하는 케이스를 최적화 하기 위해 범위를 조금 고침
         
-        tempmax = 1
+        tempmax = 1         #아무튼 배열이 가질 수 있는 경우의 수를 변수 하나로 채워 넣게 한게 포인트
         if(check != s):
             continue
         else:
